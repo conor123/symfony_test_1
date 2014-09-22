@@ -1,0 +1,7 @@
+acme_demo:
+    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+    prefix:   /
+
+acme_website:
+    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+    prefix: /
