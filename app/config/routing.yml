@@ -5,3 +5,9 @@ acme_demo:
 acme_website:
     resource: "@AcmeDemoBundle/Resources/config/routing.yml"
     prefix: /
+    
+login:
+    path:     /login
+    defaults: { _controller: AcmeSecurityBundle:Security:login }
+login_check:
+    path: /login_check

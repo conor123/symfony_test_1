@@ -10,3 +10,10 @@ security:
 
         default:
             anonymous: ~
+        
+        secured_area:
+            pattern:   ^/
+            anonymous: ~
+            form_login:
+                login_path: login
+                check_path: login_check

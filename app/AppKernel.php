@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Acme\DemoBundle\AcmeDemoBundle(),
         	new Braincrafted\Bundle\BootstrapBundle\BraincraftedBootstrapBundle(),
+        	new Acme\SecurityBundle\AcmeSecurityBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
