@@ -1,5 +1,25 @@
 {# src/Acme/DemoBundle/Resources/views/Random/index.html.twig #}
-{% extends '::base.layout.html.twig' %}
+{% extends '::base.bootstrap.layout.html.twig' %}
+
+{% block title %}
+Bootsy
+{% endblock %}
+
+
+
 {% block body %}
-Number: {{ number }}
+<!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Home</h1>
+        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+    
+    <div class="container">
+	    <div class="row">
+	    	<h1>Hello, world!</h1>
+		</div>
+	</div>
 {% endblock %}
