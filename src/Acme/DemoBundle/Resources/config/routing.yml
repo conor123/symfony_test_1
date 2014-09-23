@@ -1,3 +1,6 @@
+root:
+    path: /
+    defaults: { _controller: AcmeDemoBundle:Main:index }
 random:
     path: /random/{limit}
     defaults: { _controller: AcmeDemoBundle:Random:index }
