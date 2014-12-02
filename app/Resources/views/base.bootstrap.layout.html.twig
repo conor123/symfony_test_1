@@ -23,7 +23,7 @@
             <ul>
               <li class="logo-wrapper"><a href="index.php"><img src="img/logo.png" alt="GPS Products"></a></li>
               <li class="active">
-                <a href="./">Home</a>
+                <a href="{{ path('index') }}">Home</a>
               </li>
               <li>
                 <a href="./about">About</a>
@@ -37,7 +37,7 @@
                     <div>
                       <h4>Hang Tabs</h4>
                       <ul>
-                        <li><a href="/products#hangtabs">Hang Tabs</a></li>
+                        <li><a href="{{ path('products') }}#hangtabs">Hang Tabs</a></li>
 
                       </ul>
                     </div>
@@ -45,7 +45,7 @@
                     <div>
                       <h4>Blister Packs</h4>
                       <ul>
-                        <li><a href="/products#blister-packs">Quality Blister Packs</a></li>
+                        <li><a href="{{ path('products') }}#blister-packs">Quality Blister Packs</a></li>
 
                         
                       </ul>
@@ -55,7 +55,7 @@
                     <div>
                       <h4>Presentation Boxes</h4>
                       <ul>
-                        <li><a href="products.php#presentation-boxes">Presentatation Boxes</a></li>
+                        <li><a href="{{ path('products') }}#presentation-boxes">Presentatation Boxes</a></li>
 
                       </ul>
                     </div>
@@ -64,7 +64,7 @@
               </li>
               
               <li>
-                <a href="./contact">Contact</a>
+                <a href="{{ path('contact') }}">Contact</a>
               </li>
             </ul>
           </nav>
@@ -88,9 +88,9 @@
               <div class="col-footer col-md-4 col-xs-6">
                 <h3>Products</h3>
                 <ul class="no-list-style footer-navigate-section">
-                  <li><a href="products.php#hangtabs">Hang Tabs</a></li>
-                  <li><a href="products.php#blister-packs">Blister Packs</a></li>
-                  <li><a href="products.php#presentation-boxes">Presentation Boxes</a></li>
+                  <li><a href="{{ path('products') }}#hangtabs">Hang Tabs</a></li>
+                  <li><a href="{{ path('products') }}#blister-packs">Blister Packs</a></li>
+                  <li><a href="{{ path('products') }}#presentation-boxes">Presentation Boxes</a></li>
                 </ul>
               </div>
             <div class="col-footer col-md-4 col-xs-6">
