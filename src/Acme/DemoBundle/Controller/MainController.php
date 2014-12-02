@@ -16,6 +16,11 @@ class MainController extends Controller
         return $this->render('AcmeDemoBundle:Main:about.html.twig');
     }
 
+    public function termsprivacyAction()
+    {
+        return $this->render('AcmeDemoBundle:Main:termsprivacy.html.twig');
+    }
+
     public function productsAction()
     {
         return $this->render('AcmeDemoBundle:Main:products.html.twig');

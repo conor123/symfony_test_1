@@ -1,5 +1,6 @@
+=======================================================
 Symfony SE with Bootstrap front-end by FOS Braincrafted
-========================
+=======================================================
 Branding and Site by Conor Ryan
 2014.12.02
 
@@ -7,11 +8,15 @@ Notes: The Acme/DemoBundle contains most of the front end files such as Resource
 
 Remote: origin  https://github.com/conor123/symfony_test_1.git
 
-Testing
+Testing: "phpunit -c app" from Project Root 
 
+======
+To DO
+======
 
+> ORM
 
-
+========================
 Symfony Standard Edition
 ========================
 

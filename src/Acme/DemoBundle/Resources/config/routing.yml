@@ -10,4 +10,6 @@ products:
 contact:
     path: /contact
     defaults: { _controller: AcmeDemoBundle:Main:contact }
-
+terms-privacy:
+    path: /terms-privacy
+    defaults: { _controller: AcmeDemoBundle:Main:termsprivacy }
