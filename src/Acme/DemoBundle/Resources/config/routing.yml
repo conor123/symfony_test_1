@@ -1,6 +1,12 @@
 root:
     path: /
     defaults: { _controller: AcmeDemoBundle:Main:index }
+about:
+    path: /about
+    defaults: { _controller: AcmeDemoBundle:Main:about }
+contact:
+    path: /contact
+    defaults: { _controller: AcmeDemoBundle:Main:contact }
 random:
     path: /random/{limit}
     defaults: { _controller: AcmeDemoBundle:Random:index }

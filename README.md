@@ -1,3 +1,12 @@
+Symfony Standard Edition with Bootstrap front-end by FOS Braincrafted
+========================
+Branding and Site by Conor Ryan
+2014.12.02
+
+Notes: The Acme/DemoBundle contains most of the front end files such as Resources/views/Main/main.html.twig
+
+Remote: origin  https://github.com/conor123/symfony_test_1.git
+
 Symfony Standard Edition
 ========================
 

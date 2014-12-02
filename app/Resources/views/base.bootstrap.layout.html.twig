@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{% block title %}Title!{% endblock %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
-    <link href="{{ asset('css/bootstrap.css') }}" rel="stylesheet" media="screen">
+    <link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet" media="screen">
+    <link href="{{ asset('css/main.css') }}" rel="stylesheet" media="screen">
 
     <!-- HTML5 Shim and Respond.js add IE8 support of HTML5 elements and media queries -->
     {% include 'BraincraftedBootstrapBundle::ie8-support.html.twig' %}
@@ -13,13 +15,112 @@
 </head>
 
 <body>
+	{% block navigation %}
+      <!-- Navigation & Logo-->
+      <div class="mainmenu-wrapper">
+        <div class="container">
+          <nav id="mainmenu" class="mainmenu">
+            <ul>
+              <li class="logo-wrapper"><a href="index.php"><img src="img/logo.png" alt="GPS Products"></a></li>
+              <li class="active">
+                <a href="./">Home</a>
+              </li>
+              <li>
+                <a href="./about">About</a>
+              </li>
+              <li class="has-submenu">
+                
+                <a href="#">Products</a>
+                <div class="mainmenu-submenu">
+                  <div class="mainmenu-submenu-inner"> 
+                    
+                    <div>
+                      <h4>Hang Tabs</h4>
+                      <ul>
+                        <li><a href="/products#hangtabs">Hang Tabs</a></li>
+
+                      </ul>
+                    </div>
+
+                    <div>
+                      <h4>Blister Packs</h4>
+                      <ul>
+                        <li><a href="/products#blister-packs">Quality Blister Packs</a></li>
+
+                        
+                      </ul>
+                      
+                    </div>
+
+                    <div>
+                      <h4>Presentation Boxes</h4>
+                      <ul>
+                        <li><a href="products.php#presentation-boxes">Presentatation Boxes</a></li>
+
+                      </ul>
+                    </div>
+                  </div><!-- /mainmenu-submenu-inner -->
+                </div><!-- /mainmenu-submenu -->
+              </li>
+              
+              <li>
+                <a href="./contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div><!-- End of Navigation & Logo -->
+    {% endblock %}
 	
-	{% block body %}Welcome!{% endblock %}
+    {% block body %}Welcome!{% endblock %}
 	
-	
+    {% block footer %}
+	  <!-- Footer -->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-footer col-md-4 col-xs-6">
+                <h3>About Us</h3>
+                <p class="contact-us-details">
+                        GPS Products is a long-established business specialising in Point Of Sale Product Presentation and Top Quality Packaging.
+                      </p>
+              </div>
+              <div class="col-footer col-md-4 col-xs-6">
+                <h3>Products</h3>
+                <ul class="no-list-style footer-navigate-section">
+                  <li><a href="products.php#hangtabs">Hang Tabs</a></li>
+                  <li><a href="products.php#blister-packs">Blister Packs</a></li>
+                  <li><a href="products.php#presentation-boxes">Presentation Boxes</a></li>
+                </ul>
+              </div>
+            <div class="col-footer col-md-4 col-xs-6">
+                <h3>Contact</h3>
+                <p class="contact-us-details">
+                        <b>Address:</b> 11 Seafield Avenue, Clontarf, Dublin 3<br/>
+                        <b>Phone:</b> + 353 1 623 5199<br/>
+                        <b>Email:</b> <a href="mailto:john@gpsproducts.ie">john@gpsproducts.ie</a>
+                      </p>
+              </div>
+              <div class="col-md-12">
+                <a href="terms-privacy.php">Privacy & Terms</a>
+              </div>
+            <div class="col-md-12">
+              <div class="footer-copyright">&copy; 2014 GPS Products. All rights reserved.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endblock %}
     <!-- jQuery (necessary for Bootstraps JavaScript plugins) -->
     <script src="{{ asset('js/jquery.js') }}"></script>
     <!-- Include all JavaScripts, compiled by Assetic -->
-    <script src="{{ asset('js/bootstrap.js') }}"></script>
+    <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+
+    <script src="{{ asset('js/jquery.fitvids.js') }}"></script>
+
+    <script src="{{ asset('js/jquery.sequence-min.js') }}"></script>
+    <script src="{{ asset('js/jquery.bxslider.jss') }}"></script>
+    <script src="{{ asset('js/main-menu.js') }}"></script>
+    <script src="{{ asset('js/template.js') }}"></script>
 </body>
 </html>
