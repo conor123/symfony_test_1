@@ -22,6 +22,7 @@ To DO
 > Git: Make a Branch
 > ORM
 > Users
+> Add Angularjs Component
 
 ========================
 Symfony Standard Edition

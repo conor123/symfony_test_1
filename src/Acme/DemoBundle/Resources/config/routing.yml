@@ -13,3 +13,6 @@ contact:
 terms-privacy:
     path: /terms-privacy
     defaults: { _controller: AcmeDemoBundle:Main:termsprivacy }
+test:
+    path: /test
+    defaults: { _controller: AcmeDemoBundle:Test:test }

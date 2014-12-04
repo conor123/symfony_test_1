@@ -1,0 +1,3 @@
+acme_store_homepage:
+    path:     /store_homepage
+    defaults: { _controller: AcmeStoreBundle:Default:createproduct }

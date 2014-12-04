@@ -1,0 +1,64 @@
+{# src/Acme/DemoBundle/Resources/views/Random/index.html.twig #}
+{% extends '::base.bootstrap.layout.html.twig' %}
+
+{% block title %}
+GPS Products | What We Sell
+{% endblock %}
+
+{% block body %}
+<!--[if lt IE 7]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+<![endif]-->
+
+<!-- Page Title -->
+<div class="section section-breadcrumbs">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Products</h1>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<!-- Products Section -->
+<div class="eshop-section section">
+  <div class="container">
+    <!-- 
+        ====================
+        Presentation Boxes
+        ===================== 
+      -->
+    <h2><a name="presentation-boxes">Boxes</a></h2>
+    <div class="row">
+
+      <!-- Image Column -->
+      <div class="col-sm-6">
+        <div class="portfolio-item">
+          <div class="portfolio-image">
+            <img src="img/products/product-pres-boxes-1.jpg" alt="Presentation Boxes">
+          </div>
+        </div>
+      </div><!-- End Image Column -->
+
+      <!-- About Column-->
+      <div class="portfolio-item-description col-sm-6">
+        <h3><a name="hooked_hangtabs">Presentation Boxes</a></h3>
+        <p>
+          Choose from a wide variety of Presentation Boxes.
+        </p>
+
+        <ul class="no-list-style">
+          <li><b>Quality Presentation</b></li>
+          <li><b>Gifts & Presents</b></li>
+        </ul>
+      </div><!-- End About Column -->
+
+    </div><!-- /Row -->
+    <hr>
+    
+   
+  </div><!-- /Container -->
+</div><!-- /Section -->
+
+{% endblock %}
