@@ -1,13 +1,16 @@
 =======================================================
-symfony_test_1 orm test branch
+symfony_test_1 / orm test branch
 =======================================================
-Symfony Std Ed with Bootstrap front-end by FOS Braincrafted
-Branding and Site by Conor Ryan
-2014.12.02
+
+By: Conor Ryan
+Last Modified & BU to GIT: Thu 2014.12.04 @17:58
+
 
 ======
 Notes:
 ======
+
+Symfony Std Ed with Bootstrap front-end by FOS Braincrafted
 
 The Acme/DemoBundle contains most of the front end files such as Resources/views/Main/main.html.twig
 
@@ -20,7 +23,8 @@ Testing: "phpunit -c app" from Project Root
 To DO
 ======
 
-> ORM - !!! Only works in dev mode, throws 500 error
+> Add Restful API, maybe add as component?
+> ORM - Do smth fancy!
 > Users
 > Add Angularjs Component
 
