@@ -1,5 +1,5 @@
 <?php
-
+// !!! Surely this test should fail? Is the Kernel up-to-date here?
 namespace Acme\StoreBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;

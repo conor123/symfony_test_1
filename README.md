@@ -13,16 +13,22 @@ The Acme/DemoBundle contains most of the front end files such as Resources/views
 
 GIT: Remote: origin  https://github.com/conor123/symfony_test_1.git
 
-Testing: "phpunit -c app" from Project Root 
+Testing: "phpunit -c app" from Project Root
+
 
 ======
 To DO
 ======
 
-> Git: Make a Branch
-> ORM
+> ORM - !!! Only works in dev mode, throws 500 error
 > Users
 > Add Angularjs Component
+
+====
+DONE
+====
+
+> Fix ORM Issue- !!! Only works in dev mode, throws 500 error: solution: delete and regenerate app/cache/prod folder!!!
 
 ========================
 Symfony Standard Edition
